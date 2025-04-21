@@ -1,50 +1,49 @@
 # Global Salary Analysis Project
 
-Questo progetto si concentra sull'analisi di un dataset globale dei salari, con l'obiettivo di esplorare la distribuzione dei salari medi, minimi e massimi in vari paesi e continenti. L'analisi cerca di individuare pattern significativi, identificando i paesi con le maggiori e minori disparità salariali, oltre ai paesi con i salari medi e mediani più alti.
+This project focuses on analyzing a global salary dataset, with the goal of exploring the distribution of average, minimum, and maximum salaries across various countries and continents. The analysis aims to uncover meaningful patterns by identifying countries with the greatest and smallest salary disparities, as well as those with the highest average and median salaries.
 
 ## Dataset
 
-Il dataset utilizzato in questo progetto è 'salary_data.csv'. Il dataset include informazioni sui salari medi, minimi e massimi di diversi paesi, suddivisi per continente.
+The dataset used in this project is **`salary_data.csv`**. It includes information on the average, minimum, and maximum salaries of different countries, categorized by continent.
 
-## Obiettivi del progetto
+## Project Objectives
 
-L'obiettivo principale di questo progetto è identificare:
-- I paesi con i salari medi e mediani più alti e più bassi.
-- I paesi con la maggiore e minore disparità tra il salario minimo e massimo.
-- La distribuzione dei salari nei diversi continenti.
+- Identify the countries with the highest and lowest average and median salaries.
+- Identify the countries with the greatest and smallest disparity between minimum and maximum salaries.
+- Examine the salary distribution across different continents.
 
 ## Notebook
 
 ### `salary_analysis.ipynb`
 
-Questo notebook (realizzato con jupyter) gestisce l'importazione e l'analisi del dataset sui salari globali. Utilizza le librerie **pandas**, **numpy** e **matplotlib** per eseguire le seguenti attività:
+This Jupyter notebook handles the import and analysis of the global salary dataset. It uses the **pandas**, **numpy**, and **matplotlib** libraries to perform the following tasks:
 
-1. **Preprocessing e caricamento dei dati**: 
-   - Il dataset viene caricato in un dataframe pandas per l'analisi.
+1. **Data preprocessing and loading**  
+   - The dataset is loaded into a Pandas DataFrame for analysis.
 
-2. **Analisi esplorativa dei dati**:
-   - Vengono calcolati i paesi con i salari medi e mediani più alti e più bassi.
-   - Viene calcolata la disparità salariale tra il salario minimo e massimo per ciascun paese.
+2. **Exploratory data analysis (EDA)**  
+   - Calculate the countries with the highest and lowest average and median salaries.  
+   - Compute the salary disparity between the minimum and maximum salaries for each country.
 
-3. **Visualizzazione dei dati**:
-   - Viene creato un istogramma che mostra la distribuzione dei salari medi nei diversi paesi, con le informazioni ordinate in base ai salari più alti.
+3. **Data visualization**  
+   - Create a histogram showing the distribution of average salaries across countries, ordered by the highest salaries.
 
-## Funzionalità dello script
+## Script Functionality
 
-- **Identificazione dei paesi con i salari medi più alti e più bassi**:
-   Lo script ordina i paesi in base al salario medio e seleziona i primi e ultimi 5 paesi.
-   
-- **Calcolo della disparità salariale**:
-   Lo script calcola la disparità salariale (differenza tra salario massimo e minimo) e identifica i 5 paesi con la maggiore e minore disparità.
+- **Identify countries with the highest and lowest average salaries**  
+  The script sorts countries by average salary and selects the top and bottom five.
 
-- **Visualizzazione**:
-   Viene generato un grafico a barre che mostra i salari medi per paese, fornendo una chiara rappresentazione visiva delle differenze salariali globali.
+- **Calculate salary disparity**  
+  The script computes the salary disparity (difference between maximum and minimum salary) and identifies the five countries with the greatest and smallest disparities.
 
-## Dataset utilizzato
+- **Visualization**  
+  A bar chart is generated to display average salaries by country, providing a clear visual representation of global salary differences.
 
-- Il dataset utilizzato è reperibile su Kaggle: [Global Salary Data](https://www.kaggle.com/datasets/zedataweaver/global-salary-data).
+## Dataset Used
 
-## Come usare lo script
+- The dataset is available on Kaggle: [Global Salary Data](https://www.kaggle.com/datasets/zedataweaver/global-salary-data).
 
-1. Clona il repository e apri il notebook salary_analysis.ipynb in Jupyter Notebook.
-2. Esegui le celle del notebook.
+## How to use the script
+
+1. Clone the repository and open the notebook `salary_analysis.ipynb` in Jupyter Notebook.  
+2. Run the notebook cells.
